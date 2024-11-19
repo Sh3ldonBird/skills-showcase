@@ -1,0 +1,26 @@
+# Base Image: python slim
+FROM python:3.10-slim
+
+# Working Directory
+WORKDIR /app
+
+# Dependencies to install during image build
+#RUN apt-get update && apt-get install -y \
+#apt-get clearn && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements over to container
+# No 3rd party libraries are needed at the moment.
+#COPY requirements.txt .
+
+# Install dependencies in requirements.txt file during image build
+# --no-cache-dir flag prevents caching, reducing image size
+#RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application code into the container
+COPY network-traffic.py . 
+
+# Ports to expose
+# None for now
+
+# Default commands that run on container start
+CMD ["python", "network-traffic.py"]
