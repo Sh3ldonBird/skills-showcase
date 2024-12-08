@@ -8,7 +8,7 @@ I've stood up a standalone Ubuntu-Sever-LTS-24.04.1 server (192.168.1.15/24) for
 On the separate server I've created the directory API-testing to pull and edit the files within.  
 
 Note: Because I've set up a separate VM already to use as a Docker host, I will not be using the option to create the VM with Vagrant.  
-### Prep
+## Prep
 ```Bash 
 cd / # root or wherever you want to create the directory.
 mkdir API-testing
@@ -56,7 +56,7 @@ Creating crapi-web                   ... done
 I'm using the Docker management system "Portainer" alongside this to get a more visual representation as well. 
 screenshot.todo
 
-### Test
+## Test
 To test whether or not the download and standup was successful I visited http://192.168.1.15:8888.  
 Connecting to http://192.168.1.15:8888 failed because the quickstart guide for docker assumes that the crAPI application is deployed locally, not to a remote server.  
 To make it so the crAPI application can be accessed remotely from my workstation, I edited two entries within the docker-compose.yml file.  
