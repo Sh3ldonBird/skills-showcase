@@ -1,7 +1,7 @@
 # Projects In The Works
 ## GOALS: 
 ### Develop and run python scripts against stood up resources
-- [ ] OBJECTIVE: Stand up [crAPI](https://github.com/OWASP/crAPI) instance. [RESULT]()  
+- [x] OBJECTIVE: Stand up [crAPI](https://github.com/OWASP/crAPI) instance. [Demonstrative Work: crAPI-standup](https://github.com/Sh3ldonBird/skills-showcase/blob/main/API/crAPI-standup.md)  
 - [ ] OBJECTIVE: Stand up Damn Vulnerable Web Server. [RESULT]()  
 - [ ] OBJECTIVE: Utilize & learn postman, ZAProxy, & Burpsuite. [RESULT]()  
 # Platforms
