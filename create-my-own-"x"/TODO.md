@@ -21,5 +21,5 @@ https://defn.io/2018/02/25/web-app-from-scratch-01/
 
 https://joaoventura.net/blog/2017/python-webserver/
 
-## VPN Server In Phython
+## VPN Server In Python
 [C / Python: Build your own VPN/Virtual Switch](https://github.com/peiyuanix/build-your-own-zerotier)
