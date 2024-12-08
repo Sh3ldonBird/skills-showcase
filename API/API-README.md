@@ -2,7 +2,7 @@
 ## GOALS: 
 ### Develop and run python scripts against stood up resources
 - [x] OBJECTIVE: Stand up [crAPI](https://github.com/OWASP/crAPI) instance. [Demonstrative Work: crAPI-standup](https://github.com/Sh3ldonBird/skills-showcase/blob/main/API/crAPI-standup.md)  
-- [ ] OBJECTIVE: Stand up Damn Vulnerable Web Server. [RESULT]()  
+- [x] OBJECTIVE: Stand up Damn Vulnerable Web Server. [Demonstrative Work: DVWA-standup](https://github.com/Sh3ldonBird/skills-showcase/blob/main/API/DVWA/DVWA-standup.md)  
 - [ ] OBJECTIVE: Utilize & learn postman, ZAProxy, & Burpsuite. [RESULT]()  
 # Platforms
 [crAPI:](https://github.com/OWASP/crAPI) Completely ridiculous API (crAPI)  
