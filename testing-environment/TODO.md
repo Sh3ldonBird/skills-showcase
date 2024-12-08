@@ -1,0 +1,6 @@
+- [] Build out overall-network-diagram.png in Draw.io
+    - "Core," "Edge," "Hypervisor," DHCP Scopes?, MAC reservations, VPN? 
+- [] Build out overall-platform-diagram.png in Draw.io
+    - Diagram to show what each server is there for.
+- [] Build out overall-software-diagram.png
+    - Diagram to show what each workstations software is doing.
