@@ -16,6 +16,7 @@
 [ZAP (Zaproxy):](https://www.zaproxy.org/) The world's most widely used web app scanner. [ZAP Add-ons](https://www.zaproxy.org/addons/)  
 [MailHog:](https://github.com/mailhog/MailHog) Web and API based SMTP testing.  
 [mitmproxy:](https://docs.mitmproxy.org/stable/overview-installation/) 3-in-1 tool for web proxies. mitmproxy is an interactive, SSL/TLS-capable intercepting proxy with a console interface for HTTP/1, HTTP/2, and WebSockets. mitmweb is the GUI version for mitmproxy. mitmdump is the command-line version of mitmproxy. Think tcpdump for HTTP.  
+[mitmproxy2swagger:](https://github.com/alufers/mitmproxy2swagger) A tool for automatically converting mitmproxy captures to OpenAPI 3.0 specifications. This means that you can automatically reverse-engineer REST APIs by just running the apps and capturing the traffic.  
 [foxyproxy:](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) an open-source, advanced proxy management tool that completely replaces Firefox's limited proxying capabilities. No paid accounts are necessary; bring your own proxies or buy from any vendor. The original proxy tool, since 2006.  
 [Swagger Editor:](https://editor.swagger.io/) an open source editor to design, define and document RESTful APIs in the Swagger Specification.
 # Tools I've Heard of
