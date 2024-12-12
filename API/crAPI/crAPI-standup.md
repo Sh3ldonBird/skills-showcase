@@ -14,6 +14,7 @@ cd / # root or wherever you want to create the directory.
 mkdir API-testing
 cd API-testing
 docker-compose version # As long as docker-compose is 1.27.0 this will work.
+docker compose up # in case docker isn't up and running already
 ```
 ```Bash
 # Pulled from the crAPI README.md to pull the latest stable version.
