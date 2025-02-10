@@ -1,0 +1,649 @@
+[
+    {
+      "Id": "f1d9b15f-0b9c-4c16-bb9b-4234ff5a9f8b",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "Unauthorized access attempt detected on EC2 instance",
+      "Description": "An unauthorized access attempt was detected from a known malicious IP.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-1234567890abcdef0"
+        }
+      ]
+    },
+    {
+      "Id": "a8dbcb93-42c9-429b-84ae-3496fe92c6ad",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 70
+      },
+      "Title": "Suspicious inbound traffic on EC2 instance",
+      "Description": "An EC2 instance is receiving unexpected traffic on a non-standard port.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-9876543210abcdef1"
+        }
+      ]
+    },
+    {
+      "Id": "bf7e7c5e-9b1f-470a-a24e-e6de0ed7bc69",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/macie",
+      "GeneratorId": "macie",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 85
+      },
+      "Title": "Sensitive data found in publicly accessible S3 bucket",
+      "Description": "An S3 bucket containing sensitive data has been made publicly accessible.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "my-public-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "d5465b35-4f26-48cc-9d0e-e2f4586e0b6d",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 80
+      },
+      "Title": "EC2 instance running outdated software",
+      "Description": "An EC2 instance was detected with outdated software that is known to have security vulnerabilities.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-234567890abcdef2"
+        }
+      ]
+    },
+    {
+      "Id": "ab92a73b-e3a1-4d39-8c74-735231b510ba",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 60
+      },
+      "Title": "Suspicious SSH brute-force attempt",
+      "Description": "Multiple failed SSH login attempts detected on an EC2 instance.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-3456789012345678"
+        }
+      ]
+    },
+    {
+      "Id": "345a0e45-1c59-40b5-87b6-3b66a5be8904",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 40
+      },
+      "Title": "Unusual activity detected in CloudTrail logs",
+      "Description": "Suspicious activities were detected in CloudTrail logs from an unexpected IP address.",
+      "Resources": [
+        {
+          "Type": "AwsCloudTrail",
+          "Id": "cloudtrail-log"
+        }
+      ]
+    },
+    {
+      "Id": "1d7d6f9e-8b59-4ab2-b2f1-27a5fb2e3a2e",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "EC2 instance has outbound traffic to a known bad IP",
+      "Description": "Outbound traffic was detected from an EC2 instance to an IP address identified as malicious.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-4567890123456789"
+        }
+      ]
+    },
+    {
+      "Id": "f8bb442b-4240-4c80-9d72-57245d9b46be",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 70
+      },
+      "Title": "Suspicious CloudFormation stack deletion",
+      "Description": "A CloudFormation stack deletion was initiated from an unexpected location.",
+      "Resources": [
+        {
+          "Type": "AwsCloudFormationStack",
+          "Id": "stack-12345"
+        }
+      ]
+    },
+    {
+      "Id": "68ac02f5-bf64-43f2-8d2f-ea11d9fa52cd",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 85
+      },
+      "Title": "S3 bucket has open read/write permissions",
+      "Description": "S3 bucket is configured with open read and write permissions for all users.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "my-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "3cde2f93-4e43-4509-9bb9-1c3cbe951dbf",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 92
+      },
+      "Title": "Suspicious port scanning activity detected on EC2 instance",
+      "Description": "Port scanning activity detected from an EC2 instance towards external IP addresses.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-567890abcdef1234"
+        }
+      ]
+    },
+    {
+      "Id": "b2317c84-b6b1-4bb6-b6ad-cf1d8a349d77",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 45
+      },
+      "Title": "Suspicious AWS Lambda function behavior",
+      "Description": "A Lambda function was triggered unexpectedly without a valid execution trigger.",
+      "Resources": [
+        {
+          "Type": "AwsLambdaFunction",
+          "Id": "my-lambda-function"
+        }
+      ]
+    },
+    {
+      "Id": "64f7a5b9-75e3-4f5e-91a9-ff05cb76e6c4",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "Detected potential unauthorized data export from RDS",
+      "Description": "Unusual data export activities were detected on an RDS database instance.",
+      "Resources": [
+        {
+          "Type": "AwsRdsInstance",
+          "Id": "rds-instance-1234"
+        }
+      ]
+    },
+    {
+      "Id": "e8b6c87b-cba3-4d7c-8b2e-df7da8b671cf",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 65
+      },
+      "Title": "Unauthorized access to AWS Elastic Beanstalk application",
+      "Description": "Unauthorized access detected on an AWS Elastic Beanstalk environment.",
+      "Resources": [
+        {
+          "Type": "AwsElasticBeanstalkEnvironment",
+          "Id": "my-beanstalk-environment"
+        }
+      ]
+    },
+    {
+      "Id": "bcf2b0a3-8b55-4065-9396-9a58e7cb9d69",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 88
+      },
+      "Title": "Malicious IP addresses communicating with EC2 instances",
+      "Description": "Malicious IP addresses were detected communicating with multiple EC2 instances.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-67890abcdef12345"
+        }
+      ]
+    },  
+    {
+      "Id": "4d85bc93-80c9-4239-b905-b72427a1b6f7",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 65
+      },
+      "Title": "Unusual login activity detected for IAM user",
+      "Description": "An unusual login from an IP address outside the expected geographic region for an IAM user.",
+      "Resources": [
+        {
+          "Type": "AwsIamUser",
+          "Id": "arn:aws:iam::123456789012:user/johndoe"
+        }
+      ]
+    },
+    {
+      "Id": "755f9b7d-1180-47fc-9815-5b7f845ee1e6",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "Security group allowing unrestricted inbound access",
+      "Description": "A security group is configured to allow inbound traffic from all IP addresses (0.0.0.0/0).",
+      "Resources": [
+        {
+          "Type": "AwsSecurityGroup",
+          "Id": "sg-12345678"
+        }
+      ]
+    },
+    {
+      "Id": "f4dbfd3c-d8f5-4678-bd42-59b62ff16d6a",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 75
+      },
+      "Title": "Suspicious API calls detected in CloudTrail",
+      "Description": "Unusual API calls were detected in CloudTrail logs, potentially indicative of privilege escalation.",
+      "Resources": [
+        {
+          "Type": "AwsCloudTrail",
+          "Id": "cloudtrail-logs"
+        }
+      ]
+    },
+    {
+      "Id": "e3122b75-2317-416d-92a7-b575f5da7172",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 85
+      },
+      "Title": "EC2 instance with open SSH port (22) exposed to the internet",
+      "Description": "An EC2 instance has port 22 (SSH) open to the internet, posing a security risk.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-7890abcdef123456"
+        }
+      ]
+    },
+    {
+      "Id": "e5ab44c2-0b0a-4fe0-b6d7-42cf53c29c56",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 88
+      },
+      "Title": "Suspicious increase in IAM user permissions",
+      "Description": "An IAM user has had an unexpected increase in permissions.",
+      "Resources": [
+        {
+          "Type": "AwsIamUser",
+          "Id": "arn:aws:iam::123456789012:user/janedoe"
+        }
+      ]
+    },
+    {
+      "Id": "cde3cb61-0ac4-4019-bf49-2d63bc938ad2",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/macie",
+      "GeneratorId": "macie",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 70
+      },
+      "Title": "Sensitive data detected in RDS database backup",
+      "Description": "Sensitive data, such as credit card numbers, was detected in an RDS database backup.",
+      "Resources": [
+        {
+          "Type": "AwsRdsInstance",
+          "Id": "rds-instance-5678"
+        }
+      ]
+    },
+    {
+      "Id": "d7d3e83e-f163-4ea3-a8e6-d080b941edaf",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 55
+      },
+      "Title": "Failed attempt to delete EC2 instance",
+      "Description": "A failed attempt was made to delete an EC2 instance with a non-existent ID.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-1234567890abcdef2"
+        }
+      ]
+    },
+    {
+      "Id": "00d43b4d-5d60-4889-9479-d2d0c4b520c5",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 45
+      },
+      "Title": "IAM role with excessive permissions",
+      "Description": "An IAM role has been assigned excessive permissions that exceed normal best practices.",
+      "Resources": [
+        {
+          "Type": "AwsIamRole",
+          "Id": "arn:aws:iam::123456789012:role/admin-role"
+        }
+      ]
+    },
+    {
+      "Id": "d34a4b2f-96f2-4e89-a408-6a4a3b0ac788",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "S3 bucket allowing delete operations from any IP address",
+      "Description": "An S3 bucket is configured to allow delete operations from any IP address, posing a risk of data loss.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "my-secure-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "7a84ff5f-47e9-4261-aac5-11f9e71f7a44",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 85
+      },
+      "Title": "API Gateway configured with open access",
+      "Description": "An API Gateway is configured with open access permissions allowing unauthenticated access.",
+      "Resources": [
+        {
+          "Type": "AwsApiGateway",
+          "Id": "api-gateway-1234"
+        }
+      ]
+    },
+    {
+      "Id": "3b92fe76-c72e-426a-b1ea-c645cde3d345",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 65
+      },
+      "Title": "Suspicious RDS database access from unrecognized IP",
+      "Description": "RDS database instance is being accessed from an IP address that is not recognized in security logs.",
+      "Resources": [
+        {
+          "Type": "AwsRdsInstance",
+          "Id": "rds-db-91011"
+        }
+      ]
+    },
+    {
+      "Id": "c37e1a83-5b93-476d-b3a3-fbbd080e2741",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 50
+      },
+      "Title": "IAM user with MFA disabled",
+      "Description": "An IAM user has been found with multi-factor authentication (MFA) disabled.",
+      "Resources": [
+        {
+          "Type": "AwsIamUser",
+          "Id": "arn:aws:iam::123456789012:user/alexsmith"
+        }
+      ]
+    },
+    {
+      "Id": "2e8f9b9a-8d8e-4b1a-bc67-79b9b6a1f2da",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 70
+      },
+      "Title": "Unusual outbound traffic detected from EC2 instance",
+      "Description": "EC2 instance is sending an unusually high volume of outbound traffic, possibly indicative of data exfiltration.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-abcdef1234567890"
+        }
+      ]
+    },
+    {
+      "Id": "759ec35f-8f5d-47c0-a07d-f0b9c50ff8c8",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 95
+      },
+      "Title": "Suspicious API activity: access to sensitive S3 bucket",
+      "Description": "A user with insufficient permissions attempted to access sensitive data in an S3 bucket.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "s3://sensitive-data-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "c67bf601-25a1-4f84-91f2-b216e7a019b9",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 80
+      },
+      "Title": "Sensitive data found in S3 bucket without encryption",
+      "Description": "Sensitive information, such as social security numbers, is found in an S3 bucket without encryption enabled.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "s3://data-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "389ab0a0-7a47-4a4b-9e4d-8abbbb44a6b4",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "Unusual volume of security group changes detected",
+      "Description": "An unusually high number of security group modifications were made in a short time frame, which could indicate unauthorized access.",
+      "Resources": [
+        {
+          "Type": "AwsSecurityGroup",
+          "Id": "sg-87654321"
+        }
+      ]
+    },
+    {
+      "Id": "49b43d3f-f689-46a7-8c1a-b318ebf48eaf",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 60
+      },
+      "Title": "Suspicious login attempt to AWS account",
+      "Description": "Multiple failed login attempts were detected on an AWS account using incorrect credentials.",
+      "Resources": [
+        {
+          "Type": "AwsIamUser",
+          "Id": "arn:aws:iam::123456789012:user/susanw"
+        }
+      ]
+    },
+    {
+      "Id": "ad1cdd43-b0a3-4d76-a550-d87b7f6b2c3d",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 45
+      },
+      "Title": "Public S3 bucket discovered",
+      "Description": "A previously private S3 bucket is now accessible by the public, potentially exposing sensitive data.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "s3://exposed-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "df75bba2-b2fa-4b7f-8c65-b31ed544e957",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 90
+      },
+      "Title": "Multiple failed SSH login attempts from a foreign IP",
+      "Description": "A large number of failed SSH login attempts are being made to an EC2 instance from a suspicious IP address outside the region.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-1234567890abcdef2"
+        }
+      ]
+    },
+    {
+      "Id": "1f0d82de-68b3-4e73-b15c-bfe08a9576e5",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 70
+      },
+      "Title": "Unusual network traffic from EC2 instance",
+      "Description": "An EC2 instance is generating an unusually high level of network traffic that could be indicative of a botnet attack.",
+      "Resources": [
+        {
+          "Type": "AwsEc2Instance",
+          "Id": "i-abcdef0987654321"
+        }
+      ]
+    },
+    {
+      "Id": "1c9e992b-c115-4e4e-b76f-e39d79d6a87e",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 88
+      },
+      "Title": "S3 bucket found with misconfigured ACLs",
+      "Description": "S3 bucket ACLs are misconfigured and allow unauthorized public access to potentially sensitive data.",
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "s3://public-access-bucket"
+        }
+      ]
+    },
+    {
+      "Id": "b82e342d-c32c-4654-9f44-fb97313f1a7e",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Medium",
+        "Normalized": 80
+      },
+      "Title": "Unauthorized API calls detected for IAM role",
+      "Description": "API calls were made using an IAM role that should not have been used for these actions.",
+      "Resources": [
+        {
+          "Type": "AwsIamRole",
+          "Id": "arn:aws:iam::123456789012:role/unauthorized-role"
+        }
+      ]
+    },
+    {
+      "Id": "d3a17c9a-3571-44b2-b7c0-d13f7e75b840",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "Low",
+        "Normalized": 50
+      },
+      "Title": "IAM role permissions exceed best practices",
+      "Description": "IAM role is granted more permissions than necessary, violating the principle of least privilege.",
+      "Resources": [
+        {
+          "Type": "AwsIamRole",
+          "Id": "arn:aws:iam::123456789012:role/over-permissioned-role"
+        }
+      ]
+    },
+    {
+      "Id": "ee578e75-c8c6-4f98-97a2-f0f5e0389a42",
+      "ProductArn": "arn:aws:securityhub:us-west-2:123456789012:product/aws/guardduty",
+      "GeneratorId": "guardduty",
+      "Severity": {
+        "Label": "High",
+        "Normalized": 85
+      },
+      "Title": "AWS Lambda function has excessive permissions",
+      "Description": "An AWS Lambda function has been granted excessive permissions that exceed normal best practices.",
+      "Resources": [
+        {
+          "Type": "AwsLambdaFunction",
+          "Id": "arn:aws:lambda:us-west-2:123456789012:function:malfunction"
+        }
+      ]
+    }
+  ]
+  

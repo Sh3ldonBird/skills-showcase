@@ -1,0 +1,23 @@
+"""
+
+Standard log levels 0-7
+
+- emergency - level 0  
+- alert - level 1  
+- critical - level 2  
+- error - level 3  
+- warning - level 4  
+- notice - level 5  
+- informational - level 6  
+- debug - level 7   
+
+"""
+"log type",level
+emergency,0 
+alert,1  
+critical,2  
+error,3  
+warning,4  
+notice,5  
+informational,6  
+debug,7
