@@ -14,7 +14,7 @@ import sys
 error = []
 warning = []
 
-with open("log1.txt", "r") as f:
+with open("/home/sheldon/github/skills-showcase/python/log-parsing/JSON-files/?/log1.txt", "r") as f:
     for line in f.readlines():
         result = re.search (r"\w*level=(warning|error)*[\w]*[\=\"\w\.][fF]ailed", line)
         if result != None:
@@ -23,8 +23,8 @@ with open("log1.txt", "r") as f:
             if result[1] == 'warning':
                 warning.append(line)
 
-with open('error_message.txt', 'w', newline='') as error_list:
+with open('/home/sheldon/github/skills-showcase/python/log-parsing/JSON-files/?/error_message.txt', 'w', newline='') as error_list:
     error_list.writelines("%s\n" % x for x in error)  
 
-with open('warning_message.txt', 'w+', newline='') as warning_list:
+with open('/home/sheldon/github/skills-showcase/python/log-parsing/JSON-files/?/warning_message.txt', 'w+', newline='') as warning_list:
     warning_list.writelines("%s\n" % y for y in warning)
