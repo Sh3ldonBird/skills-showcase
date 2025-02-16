@@ -7,7 +7,7 @@ import seaborn as sns
 with open("/home/sheldon/github/skills-showcase/python/log-parsing/JSON-files/?/AWS-security-hub.json", "r") as JSON_file:
     json_data = JSON_file.read()
 if not json_data.strip():
-    print("Error: The file is empty or not formatted properly")
+    print("Error: The file is empty")
 else:
     try:
         log_data = json.loads(json_data)
